@@ -1,0 +1,8 @@
+To run the unittest tests enter the commands below into the OSU FLIP servers:
+python3 -m unittest unittest_palindrome.py
+python3 -m unittest unittest_word_count.py
+
+To run the pytest tests enter the commands below into a terminal with pytest 
+installed. Pytest is not installed on the OSU FLIP servers by default:
+pytest pytest_palindrome.py
+pytest pytest_word_count.py
